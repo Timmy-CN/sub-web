@@ -12,7 +12,7 @@ services:
     container_name: myurls
     restart: always
     ports:
-      - "${MYURLS_PORT}:8002"
+      - "${MYURLS_PORT}:8080"
     volumes:
       - ./data/myurls/logs:/app/logs       
     depends_on:
